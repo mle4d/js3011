@@ -153,6 +153,12 @@ input[type=range]::-moz-range-thumb {
   margin-top: -3.5px;
 }
 @media only screen and (min-width: 600px) {
+  img {
+    position: fixed;
+    bottom: 0;
+    right: 4%;
+    width: 94vw;
+  }
   .player {
     max-width: 90vw;
     height: 42vh;
@@ -171,6 +177,19 @@ input[type=range]::-moz-range-thumb {
     height: 38vh;
     border: 8px solid #fff09d;
     border-radius: 40px;
+  }
+  .player__controls {
+    display: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%) translateY(20px);
+    transition: all .3s;
+    flex-wrap: wrap;
+  }
+  
+  .player:hover .player__controls {
+    display: hidden;
   }
 }
 

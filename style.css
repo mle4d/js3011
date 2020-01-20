@@ -157,7 +157,7 @@ input[type=range]::-moz-range-thumb {
     position: fixed;
     bottom: 0;
     right: 4%;
-    width: 94vw;
+    width: 88vw;
   }
   .player {
     max-width: 90vw;
@@ -182,14 +182,10 @@ input[type=range]::-moz-range-thumb {
     display: hidden;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 86%;
     transform: translateY(100%) translateY(20px);
     transition: all .3s;
-    flex-wrap: wrap;
-  }
-  
-  .player:hover .player__controls {
-    display: hidden;
+    /* flex-wrap: wrap; */
   }
 }
 

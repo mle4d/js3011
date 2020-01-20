@@ -152,4 +152,25 @@ input[type=range]::-moz-range-thumb {
   -webkit-appearance: none;
   margin-top: -3.5px;
 }
+@media only screen and (min-width: 600px) {
+  .player {
+    max-width: 90vw;
+    height: 42vh;
+    border: 10px solid #F5E1FD;
+    border-radius: 40px;
+    box-shadow: 0 0 20px #f1adbc;
+    background-color: #addbf5;
+    position: relative;
+    overflow: hidden;
+    margin-top: -50px;
+    margin-left: 10px;
+    padding: 20px;
+  }
+  .player__video {
+    width: 88vw;
+    height: 38vh;
+    border: 8px solid #fff09d;
+    border-radius: 40px;
+  }
+}
 

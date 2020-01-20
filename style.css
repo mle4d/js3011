@@ -157,7 +157,7 @@ input[type=range]::-moz-range-thumb {
     position: fixed;
     bottom: 0;
     right: 4%;
-    width: 88vw;
+    width: 86vw;
   }
   .player {
     max-width: 90vw;

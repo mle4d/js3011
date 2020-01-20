@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Bubbler+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Satisfy&display=swap');
 HTML {
   background-color: #F5E1FD;
   overflow: hidden;
@@ -10,7 +10,7 @@ img {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 60vw;
+  width: 50vw;
 }
 header {
   text-align: center;
@@ -23,12 +23,10 @@ h1 {
   text-shadow: 5px 5px 0 #fff09d;
 }
 h2 {
-  font-family: 'Bubbler One', sans-serif;
-  font-size: 3em;
+  font-family: 'Satisfy', cursive;
+  font-size: 3.5em;
   margin-top: -65px;
   color: #f1adbc;
-  text-shadow: 3px 1px 0 #fff09d;
-  text-decoration: #addbf5;
-  text-decoration-line: underline;
-  font-weight: bolder;
+  text-shadow: 3px 1px 0 #addbf5;
+  text-decoration: #f1adbc;
 }

@@ -156,8 +156,8 @@ input[type=range]::-moz-range-thumb {
   img {
     position: fixed;
     bottom: 0;
-    right: 4%;
-    width: 80vw;
+    right: 6%;
+    width: 82vw;
   }
   .player {
     max-width: 90vw;

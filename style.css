@@ -55,7 +55,7 @@ button {
 }
 .player__button {
   background: #f1adbc;
-  border: 2px solid #fff09d;
+  border: 2px solid #addbf5;
   border-radius: 20px;
   line-height: 1.5;
   color: #fff09d;
@@ -63,4 +63,11 @@ button {
   outline: 0;
   padding: 2;
   cursor: pointer;
+}
+.player__button:focus {
+  border-color: #fff09d;
+  box-shadow: 3px 1px 0 #addbf5;
+}
+.player__button:hover {
+  border-color: #fff09d;
 }

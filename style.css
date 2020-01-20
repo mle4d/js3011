@@ -1,0 +1,8 @@
+HTML {
+  background-color: #F5E1FD;
+  background-image: url(assets/twinstars.png);
+  background-repeat: no-repeat;
+  background-position: 100% -100%;
+  background-size: 100vh;
+  overflow: hidden;
+}

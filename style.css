@@ -37,6 +37,7 @@ button {
 
 .player {
   max-width: 40vw;
+  max-height: 63vh;
   border: 10px solid #F5E1FD;
   border-radius: 40px;
   box-shadow: 0 0 20px #f1adbc;
@@ -57,17 +58,23 @@ button {
   background: #f1adbc;
   border: 2px solid #addbf5;
   border-radius: 20px;
-  line-height: 1.5;
   color: #fff09d;
   text-align: center;
   outline: 0;
-  padding: 2;
   cursor: pointer;
+  margin-left: 30px;
+  width: 5vw;
 }
 .player__button:focus {
   border-color: #fff09d;
-  box-shadow: 3px 1px 0 #addbf5;
 }
 .player__button:hover {
   border-color: #fff09d;
 }
+.player__slider {
+  width: 10vw;
+  height: 10px;
+  margin-left: 30px;
+}
+
+

@@ -152,7 +152,7 @@ input[type=range]::-moz-range-thumb {
   -webkit-appearance: none;
   margin-top: -3.5px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
   img {
     position: fixed;
     bottom: 0;

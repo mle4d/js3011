@@ -10,7 +10,7 @@ img {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 50vw;
+  width: 52vw;
 }
 header {
   text-align: center;
@@ -32,5 +32,23 @@ h2 {
 }
 button {
   font-family: 'Bubblegum Sans', cursive;
-  
+}
+
+.player {
+  max-width: 40vw;
+  border: 10px solid #F5E1FD;
+  border-radius: 40px;
+  box-shadow: 0 0 20px #f1adbc;
+  background-color: #addbf5;
+  position: relative;
+  overflow: hidden;
+  margin-top: -50px;
+  margin-left: 10px;
+  padding: 20px;
+}
+.player__video {
+  width: 38vw;
+  height: 57vh;
+  border: 10px solid #fff09d;
+  border-radius: 40px;
 }

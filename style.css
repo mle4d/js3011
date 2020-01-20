@@ -36,8 +36,8 @@ button {
 }
 
 .player {
-  max-width: 40vw;
-  max-height: 63vh;
+  max-width: 39.5vw;
+  height: 61vh;
   border: 10px solid #F5E1FD;
   border-radius: 40px;
   box-shadow: 0 0 20px #f1adbc;
@@ -51,7 +51,7 @@ button {
 .player__video {
   width: 38vw;
   height: 57vh;
-  border: 10px solid #fff09d;
+  border: 8px solid #fff09d;
   border-radius: 40px;
 }
 .player__button {
@@ -76,5 +76,17 @@ button {
   height: 10px;
   margin-left: 30px;
 }
+.player__controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(100%) translateY(5px);
+  transition: all .3s;
+  flex-wrap: wrap;
+}
 
+.player:hover .player__controls {
+  transform: translateY(0);
+}
 

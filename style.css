@@ -157,7 +157,7 @@ input[type=range]::-moz-range-thumb {
     position: fixed;
     bottom: 0;
     right: 4%;
-    width: 86vw;
+    width: 80vw;
   }
   .player {
     max-width: 90vw;
@@ -178,6 +178,12 @@ input[type=range]::-moz-range-thumb {
     border: 8px solid #fff09d;
     border-radius: 40px;
   }
+  .player__button {
+    margin-left: 30px;
+  }
+  .player__slider {
+    margin-left: 30px;
+  }
   .player__controls {
     display: hidden;
     position: absolute;
@@ -185,7 +191,6 @@ input[type=range]::-moz-range-thumb {
     width: 86%;
     transform: translateY(100%) translateY(20px);
     transition: all .3s;
-    /* flex-wrap: wrap; */
   }
 }
 

@@ -89,4 +89,18 @@ button {
 .player:hover .player__controls {
   transform: translateY(0);
 }
+.progress {
+  position: relative;
+  display: flex;
+  height: 8px;
+  width: 90%;
+  transition: height 0.3s;
+  background: rgba(0,0,0,0.5);
+  cursor: ew-resize;
+}
+
+.progress__filled {
+  width: 50%;
+  background: #f1adbc;
+}
 

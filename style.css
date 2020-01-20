@@ -32,6 +32,7 @@ h2 {
 }
 button {
   font-family: 'Bubblegum Sans', cursive;
+  font-size: 1em;
 }
 
 .player {
@@ -51,4 +52,15 @@ button {
   height: 57vh;
   border: 10px solid #fff09d;
   border-radius: 40px;
+}
+.player__button {
+  background: #f1adbc;
+  border: 2px solid #fff09d;
+  border-radius: 20px;
+  line-height: 1.5;
+  color: #fff09d;
+  text-align: center;
+  outline: 0;
+  padding: 2;
+  cursor: pointer;
 }

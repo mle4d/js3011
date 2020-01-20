@@ -178,19 +178,15 @@ input[type=range]::-moz-range-thumb {
     border: 8px solid #fff09d;
     border-radius: 40px;
   }
-  .player__button {
-    margin-left: 200px;
-  }
-  .player__slider {
-    margin-left: 200px;
-  }
   .player__controls {
-    display: hidden;
-    position: absolute;
-    bottom: 0;
-    width: 86%;
-    transform: translateY(100%) translateY(20px);
-    transition: all .3s;
+    width: 0%;
+    height: 0%;
+  }
+  .player__button {
+    width: 0%;
+  }
+  .progress {
+    width: 0%;
   }
 }
 

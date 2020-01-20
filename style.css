@@ -179,10 +179,10 @@ input[type=range]::-moz-range-thumb {
     border-radius: 40px;
   }
   .player__button {
-    margin-left: 30px;
+    margin-left: 60px;
   }
   .player__slider {
-    margin-left: 30px;
+    margin-left: 60px;
   }
   .player__controls {
     display: hidden;
